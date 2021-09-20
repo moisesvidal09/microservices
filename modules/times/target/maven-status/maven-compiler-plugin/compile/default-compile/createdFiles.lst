@@ -1,0 +1,12 @@
+com\microservice\mongo\controller\TimeController.class
+com\microservice\mongo\MongoApplication.class
+com\microservice\mongo\controller\JogadorController.class
+com\microservice\mongo\entidade\Jogador$JogadorBuilder.class
+com\microservice\mongo\entidade\Time.class
+com\microservice\mongo\entidade\Jogador.class
+com\microservice\mongo\entidade\Time$TimeBuilder.class
+com\microservice\mongo\enums\Posicao.class
+com\microservice\mongo\service\TimeService.class
+com\microservice\mongo\repository\JogadorRepository.class
+com\microservice\mongo\service\JogadorService.class
+com\microservice\mongo\repository\TimeRepository.class
