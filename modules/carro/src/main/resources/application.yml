@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: carro
+  kafka:
+    producer:
+      bootstrap-servers: 192.168.99.105:9092
+      value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+server:
+  port: 8083
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+

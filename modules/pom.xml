@@ -29,6 +29,7 @@
 
     <modules>
         <module>times</module>
+        <module>carro</module>
     </modules>
 
     <dependencyManagement>
